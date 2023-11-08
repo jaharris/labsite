@@ -9,3 +9,11 @@ disable_share: false
 ---
 
 A description of the pupillometry projects
+
+You can add images like so:
+
+![Pupil dilation](/images/projects/pupil-demo.jpg)
+
+
+
+

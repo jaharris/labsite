@@ -1,0 +1,46 @@
+body {
+    background-color: pink;
+  }
+  
+  h1 {
+    color: orangered;
+    /* text-align: center; */
+  }
+
+  h2 {
+    color: darkcyan;
+    /* text-align: center; */
+  }
+
+
+/* https://www.w3schools.com/html/html_table_padding_spacing.asp*/
+
+th, td {
+    vertical-align: top;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+  }
+
+/* https://sirv.com/help/articles/hover-change-image/ */
+
+  /*  Rollover image styles  */
+  .figure {
+    position: relative;
+    width: 360px; /* can be omitted for a regular non-lazy image */
+    max-width: 100%;
+  }
+  .figure img.Sirv.image-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+  }
+  .figure:hover img.Sirv.image-hover {
+    opacity: 1;
+  }
